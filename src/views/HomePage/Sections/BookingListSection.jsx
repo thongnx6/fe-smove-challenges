@@ -14,11 +14,11 @@ import TablePaginationActionsWrapped from 'components/Table/TablePaginationActio
 
 import bookingListSectionStyle from "assets/jss/views/homePageSections/bookingListSectionStyle.jsx";
 
-function getSorting(order, orderBy) {
-  return order === 'desc'
-    ? (a, b) => (b[orderBy] < a[orderBy] ? -1 : 1)
-    : (a, b) => (a[orderBy] < b[orderBy] ? -1 : 1);
-}
+// function getSorting(order, orderBy) {
+//   return order === 'desc'
+//     ? (a, b) => (b[orderBy] < a[orderBy] ? -1 : 1)
+//     : (a, b) => (a[orderBy] < b[orderBy] ? -1 : 1);
+// }
 
 const columnData = [
   { id: 'user', numeric: false, disablePadding: true, label: 'User' },

@@ -1,3 +1,5 @@
+/*eslint no-unexpected-multiline: 0*/
+
 /**
  * index.js
  *

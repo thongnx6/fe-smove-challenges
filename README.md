@@ -27,8 +27,23 @@ The project currently contains test for actions, reducers and components within 
 
 - **Unit Test**: `$ yarn test`
 - **Test Coverage**: `$ yarn test:coverage`
+![screen shoot](/__demo/testshoot.png)
 
-# Overview
+### Overview
+
+```bash
+/src                    # Root of our app
+  - actions/            # Redux Actions
+  - api/                # Make data provider can control Our calls apis
+  - components/         # Our core component
+  - reducers/           # Redux reducer
+  - routes/             # Our routes app
+  - view/               # Our Screen
+```
+
+- Based on ReactJS, Material-UI, Redux, Redux-thunk, Jest, Enzyme.
+- Apply husky, reformat code using prettier in conjunction lint
+- Continues Integration and Continues Deployment with TravisCI
 
 ### Contributing and License
 

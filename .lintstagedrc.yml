@@ -1,0 +1,7 @@
+# https://github.com/okonet/lint-staged configuration, written in YAML.
+
+lint-staged:
+"./src/**/*.js":
+  # Reformat the code before git commitment.
+  - "yarn run eslint ./src --fix"
+  - "git add"

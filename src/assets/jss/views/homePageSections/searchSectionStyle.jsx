@@ -1,4 +1,4 @@
-import { container, primaryColor } from "assets/jss/minso-kit.jsx";
+import { container } from "assets/jss/minso-kit.jsx";
 
 const searchSectionStyle = {
   container: {
@@ -45,5 +45,10 @@ const searchSectionStyle = {
   bootstrapFormLabel: {
     fontSize: 18,
   },
+  enAdornment: {
+    position: 'absolute',
+    right: 0,
+    top: '4px'
+  }
 };
 export default searchSectionStyle;

@@ -1,4 +1,4 @@
-import { container, primaryColor } from "assets/jss/minso-kit.jsx";
+import { container } from "assets/jss/minso-kit.jsx";
 
 const bookingListSectionStyle = {
   container: {
